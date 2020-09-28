@@ -1,0 +1,5 @@
+E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.deps.json
+E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.dll
+E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csprojAssemblyReference.cache
+E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfoInputs.cache
+E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfo.cs

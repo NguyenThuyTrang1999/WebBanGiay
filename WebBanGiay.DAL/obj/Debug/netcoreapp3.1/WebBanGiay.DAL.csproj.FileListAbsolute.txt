@@ -1,0 +1,12 @@
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.deps.json
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.dll
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.csprojAssemblyReference.cache
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.AssemblyInfoInputs.cache
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.AssemblyInfo.cs
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.json
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.dev.json
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.pdb
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.csproj.CoreCompileInputs.cache
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.dll
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.pdb
+E:\Do An Nganh\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.genruntimeconfig.cache
