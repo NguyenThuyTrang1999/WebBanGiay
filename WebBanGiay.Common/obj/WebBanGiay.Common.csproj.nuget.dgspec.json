@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj": {}
+    "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj": {}
   },
   "projects": {
-    "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj": {
+    "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj",
+        "projectUniqueName": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj",
         "projectName": "WebBanGiay.Common",
-        "projectPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj",
+        "projectPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj",
         "packagesPath": "C:\\Users\\trang\\.nuget\\packages\\",
-        "outputPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Common\\obj\\",
+        "outputPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

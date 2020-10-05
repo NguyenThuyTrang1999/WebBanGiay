@@ -15,6 +15,8 @@ namespace WebBanGiay.DAL.Models
         {
         }
 
+        public virtual DbSet<BinhLuan> BinhLuan { get; set; }
+        public virtual DbSet<ChiTietSuKien> ChiTietSuKien { get; set; }
         public virtual DbSet<DonHang> DonHang { get; set; }
         public virtual DbSet<GioHang> GioHang { get; set; }
         public virtual DbSet<Hinh> Hinh { get; set; }
@@ -36,6 +38,64 @@ namespace WebBanGiay.DAL.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<BinhLuan>(entity =>
+            {
+                entity.HasKey(e => e.MaBl);
+
+                entity.Property(e => e.MaBl)
+                    .HasColumnName("MaBL")
+                    .HasMaxLength(20)
+                    .IsFixedLength();
+
+                entity.Property(e => e.IdNguoiDung)
+                    .HasMaxLength(20)
+                    .IsFixedLength();
+
+                entity.Property(e => e.MaSp)
+                    .HasColumnName("MaSP")
+                    .HasMaxLength(20)
+                    .IsFixedLength();
+
+                entity.Property(e => e.NgayGio).HasColumnType("datetime");
+
+                entity.Property(e => e.TieuDe)
+                    .HasMaxLength(200)
+                    .IsFixedLength();
+
+                entity.HasOne(d => d.IdNguoiDungNavigation)
+                    .WithMany(p => p.BinhLuan)
+                    .HasForeignKey(d => d.IdNguoiDung)
+                    .HasConstraintName("FK_BinhLuan_NguoiDung");
+            });
+
+            modelBuilder.Entity<ChiTietSuKien>(entity =>
+            {
+                entity.HasKey(e => new { e.IdSuKien, e.MaSp });
+
+                entity.Property(e => e.IdSuKien)
+                    .HasMaxLength(20)
+                    .IsFixedLength();
+
+                entity.Property(e => e.MaSp)
+                    .HasColumnName("MaSP")
+                    .HasMaxLength(20)
+                    .IsFixedLength();
+
+                entity.Property(e => e.NgayDang).HasColumnType("datetime");
+
+                entity.HasOne(d => d.IdSuKienNavigation)
+                    .WithMany(p => p.ChiTietSuKien)
+                    .HasForeignKey(d => d.IdSuKien)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ChiTietSuKien_SuKien");
+
+                entity.HasOne(d => d.MaSpNavigation)
+                    .WithMany(p => p.ChiTietSuKien)
+                    .HasForeignKey(d => d.MaSp)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ChiTietSuKien_SanPham");
+            });
+
             modelBuilder.Entity<DonHang>(entity =>
             {
                 entity.HasKey(e => e.IdDonHang);
@@ -64,6 +124,11 @@ namespace WebBanGiay.DAL.Models
                     .HasColumnName("TenKH")
                     .HasMaxLength(50)
                     .IsFixedLength();
+
+                entity.HasOne(d => d.IdNguoiDungNavigation)
+                    .WithMany(p => p.DonHang)
+                    .HasForeignKey(d => d.IdNguoiDung)
+                    .HasConstraintName("FK_DonHang_NguoiDung");
             });
 
             modelBuilder.Entity<GioHang>(entity =>
@@ -80,6 +145,18 @@ namespace WebBanGiay.DAL.Models
                     .IsFixedLength();
 
                 entity.Property(e => e.Sl).HasColumnName("SL");
+
+                entity.HasOne(d => d.IdDonHangNavigation)
+                    .WithMany(p => p.GioHang)
+                    .HasForeignKey(d => d.IdDonHang)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_GioHang_DonHang");
+
+                entity.HasOne(d => d.MaSpNavigation)
+                    .WithMany(p => p.GioHang)
+                    .HasForeignKey(d => d.MaSp)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_GioHang_SanPham");
             });
 
             modelBuilder.Entity<Hinh>(entity =>
@@ -100,6 +177,11 @@ namespace WebBanGiay.DAL.Models
                     .IsFixedLength();
 
                 entity.Property(e => e.NgayDang).HasColumnType("date");
+
+                entity.HasOne(d => d.MaSpNavigation)
+                    .WithMany(p => p.Hinh)
+                    .HasForeignKey(d => d.MaSp)
+                    .HasConstraintName("FK_Hinh_SanPham");
             });
 
             modelBuilder.Entity<LienHe>(entity =>
@@ -110,17 +192,18 @@ namespace WebBanGiay.DAL.Models
                     .HasMaxLength(20)
                     .IsFixedLength();
 
-                entity.Property(e => e.Email)
+                entity.Property(e => e.HoTen)
                     .HasMaxLength(100)
                     .IsFixedLength();
 
-                entity.Property(e => e.HoTen)
-                    .HasMaxLength(50)
-                    .IsFixedLength();
-
-                entity.Property(e => e.Phone)
+                entity.Property(e => e.IdNguoiDung)
                     .HasMaxLength(20)
                     .IsFixedLength();
+
+                entity.HasOne(d => d.IdNguoiDungNavigation)
+                    .WithMany(p => p.LienHe)
+                    .HasForeignKey(d => d.IdNguoiDung)
+                    .HasConstraintName("FK_LienHe_NguoiDung");
             });
 
             modelBuilder.Entity<MenuCha>(entity =>
@@ -151,6 +234,11 @@ namespace WebBanGiay.DAL.Models
                 entity.Property(e => e.TenMenuCon)
                     .HasMaxLength(100)
                     .IsFixedLength();
+
+                entity.HasOne(d => d.IdChaNavigation)
+                    .WithMany(p => p.MenuCon)
+                    .HasForeignKey(d => d.IdCha)
+                    .HasConstraintName("FK_MenuCon_MenuCha");
             });
 
             modelBuilder.Entity<NguoiDung>(entity =>
@@ -220,6 +308,11 @@ namespace WebBanGiay.DAL.Models
                     .HasColumnName("TenSP")
                     .HasMaxLength(100)
                     .IsFixedLength();
+
+                entity.HasOne(d => d.IdConNavigation)
+                    .WithMany(p => p.SanPham)
+                    .HasForeignKey(d => d.IdCon)
+                    .HasConstraintName("FK_SanPham_MenuCon");
             });
 
             modelBuilder.Entity<SuKien>(entity =>

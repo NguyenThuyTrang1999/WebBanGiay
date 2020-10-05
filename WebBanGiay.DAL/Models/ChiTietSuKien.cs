@@ -3,14 +3,13 @@ using System.Collections.Generic;
 
 namespace WebBanGiay.DAL.Models
 {
-    public partial class Hinh
+    public partial class ChiTietSuKien
     {
-        public string IdHinh { get; set; }
+        public string IdSuKien { get; set; }
         public string MaSp { get; set; }
         public DateTime? NgayDang { get; set; }
-        public string DuongDanHinh { get; set; }
-        public int? LoaiHinh { get; set; }
 
+        public virtual SuKien IdSuKienNavigation { get; set; }
         public virtual SanPham MaSpNavigation { get; set; }
     }
 }

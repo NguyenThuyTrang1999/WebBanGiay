@@ -5673,11 +5673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Web\\WebBanGiay.Web.csproj",
+      "projectUniqueName": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Web\\WebBanGiay.Web.csproj",
       "projectName": "WebBanGiay.Web",
-      "projectPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Web\\WebBanGiay.Web.csproj",
+      "projectPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Web\\WebBanGiay.Web.csproj",
       "packagesPath": "C:\\Users\\trang\\.nuget\\packages\\",
-      "outputPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.Web\\obj\\",
+      "outputPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

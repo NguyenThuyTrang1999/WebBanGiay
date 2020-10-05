@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cvr7y7TVpbP9uc/8smft+suYpwGUj1Fno0AP8z3TEgI3vQ/FhEkLiCkoXGEcaf481TSJU/fyUqoyP3lk0S/SPg==",
+  "dgSpecHash": "qtRgIeaH16qJ1zzoiXevxByNRQTgIr1Mj0witA6Va/y2VJb5mEgyPKC3mbD6Yk72owYeQ8U5bpqqfHfnwM/oIw==",
   "success": true,
-  "projectFilePath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
+  "projectFilePath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trang\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\trang\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

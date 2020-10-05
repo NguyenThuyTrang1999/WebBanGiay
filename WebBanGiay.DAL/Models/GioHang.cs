@@ -9,5 +9,8 @@ namespace WebBanGiay.DAL.Models
         public string MaSp { get; set; }
         public byte? Sl { get; set; }
         public double? DonGia { get; set; }
+
+        public virtual DonHang IdDonHangNavigation { get; set; }
+        public virtual SanPham MaSpNavigation { get; set; }
     }
 }

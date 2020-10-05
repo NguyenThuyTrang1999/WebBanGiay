@@ -3,3 +3,12 @@ E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.C
 E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csprojAssemblyReference.cache
 E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfoInputs.cache
 E:\Do An Nganh\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfo.cs
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.deps.json
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.dll
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.pdb
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csprojAssemblyReference.cache
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csproj.CoreCompileInputs.cache
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfoInputs.cache
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfo.cs
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.dll
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.pdb

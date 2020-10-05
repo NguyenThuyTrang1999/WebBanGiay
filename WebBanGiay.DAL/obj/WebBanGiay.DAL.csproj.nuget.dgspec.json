@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj": {}
+    "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj": {}
   },
   "projects": {
-    "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj": {
+    "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
         "projectName": "WebBanGiay.DAL",
-        "projectPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
+        "projectPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\WebBanGiay.DAL.csproj",
         "packagesPath": "C:\\Users\\trang\\.nuget\\packages\\",
-        "outputPath": "E:\\Do An Nganh\\WebBanGiay\\WebBanGiay.DAL\\obj\\",
+        "outputPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
