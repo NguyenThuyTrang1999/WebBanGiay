@@ -1,12 +1,12 @@
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.deps.json
-C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.json
-C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.dev.json
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.dll
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.csprojAssemblyReference.cache
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.AssemblyInfoInputs.cache
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.AssemblyInfo.cs
-C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.genruntimeconfig.cache
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.json
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.runtimeconfig.dev.json
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\bin\Debug\netcoreapp3.1\WebBanGiay.DAL.pdb
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.csproj.CoreCompileInputs.cache
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.dll
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.pdb
+C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.DAL\obj\Debug\netcoreapp3.1\WebBanGiay.DAL.genruntimeconfig.cache

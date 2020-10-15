@@ -12,7 +12,7 @@ namespace WebBanGiay.DAL.Models
             LienHe = new HashSet<LienHe>();
         }
 
-        public string IdNguoiDung { get; set; }
+        public int MaNguoiDung { get; set; }
         public string TenUser { get; set; }
         public string MatKhau { get; set; }
         public string HoVaTen { get; set; }

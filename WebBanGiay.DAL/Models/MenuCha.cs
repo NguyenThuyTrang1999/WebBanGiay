@@ -10,7 +10,7 @@ namespace WebBanGiay.DAL.Models
             MenuCon = new HashSet<MenuCon>();
         }
 
-        public string IdCha { get; set; }
+        public int MaCha { get; set; }
         public string TenMenuCha { get; set; }
 
         public virtual ICollection<MenuCon> MenuCon { get; set; }

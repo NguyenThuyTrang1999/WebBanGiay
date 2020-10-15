@@ -5,12 +5,11 @@ namespace WebBanGiay.DAL.Models
 {
     public partial class GioHang
     {
-        public string IdDonHang { get; set; }
-        public string MaSp { get; set; }
+        public int MaDonHang { get; set; }
+        public int MaSp { get; set; }
         public byte? Sl { get; set; }
         public double? DonGia { get; set; }
 
-        public virtual DonHang IdDonHangNavigation { get; set; }
         public virtual SanPham MaSpNavigation { get; set; }
     }
 }

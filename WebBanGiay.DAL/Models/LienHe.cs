@@ -5,11 +5,11 @@ namespace WebBanGiay.DAL.Models
 {
     public partial class LienHe
     {
-        public string IdLienHe { get; set; }
-        public string IdNguoiDung { get; set; }
+        public int MaLienHe { get; set; }
+        public int? MaNguoiDung { get; set; }
         public string HoTen { get; set; }
         public string NoiDung { get; set; }
 
-        public virtual NguoiDung IdNguoiDungNavigation { get; set; }
+        public virtual NguoiDung MaNguoiDungNavigation { get; set; }
     }
 }

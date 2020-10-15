@@ -10,11 +10,11 @@ namespace WebBanGiay.DAL.Models
             SanPham = new HashSet<SanPham>();
         }
 
-        public string IdCon { get; set; }
-        public string IdCha { get; set; }
+        public int MaCon { get; set; }
+        public int? MaCha { get; set; }
         public string TenMenuCon { get; set; }
 
-        public virtual MenuCha IdChaNavigation { get; set; }
+        public virtual MenuCha MaChaNavigation { get; set; }
         public virtual ICollection<SanPham> SanPham { get; set; }
     }
 }
