@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LTCSDL.Common.BLL
+namespace WebBanGiay.Common.BLL
 {
     using Rsp;
     public interface IGenericSvc<T> where T : class

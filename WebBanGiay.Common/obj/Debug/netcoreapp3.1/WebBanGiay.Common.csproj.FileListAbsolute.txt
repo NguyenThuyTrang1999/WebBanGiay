@@ -7,7 +7,6 @@ C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcor
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.dll
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\bin\Debug\netcoreapp3.1\WebBanGiay.Common.pdb
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csprojAssemblyReference.cache
-C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.csproj.CoreCompileInputs.cache
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfoInputs.cache
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.AssemblyInfo.cs
 C:\Users\trang\OneDrive\Desktop\da\WebBanGiay\WebBanGiay.Common\obj\Debug\netcoreapp3.1\WebBanGiay.Common.dll

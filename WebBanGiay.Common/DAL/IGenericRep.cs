@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LTCSDL.Common.DAL
+namespace WebBanGiay.Common.DAL
 {
     public interface IGenericRep<T> where T : class
     {

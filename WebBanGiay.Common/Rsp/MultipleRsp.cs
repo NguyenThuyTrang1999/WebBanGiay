@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LTCSDL.Common.Rsp
+namespace WebBanGiay.Common.Rsp
 {
     public class MultipleRsp : BaseRsp
     {

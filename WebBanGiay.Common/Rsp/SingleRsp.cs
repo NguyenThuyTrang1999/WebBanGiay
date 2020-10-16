@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LTCSDL.Common.Rsp
+namespace WebBanGiay.Common.Rsp
 {
     public class SingleRsp : BaseRsp
     {

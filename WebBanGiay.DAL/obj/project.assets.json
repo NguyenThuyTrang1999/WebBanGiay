@@ -1495,6 +1495,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "WebBanGiay.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
+        },
+        "compile": {
+          "bin/placeholder/WebBanGiay.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebBanGiay.Common.dll": {}
+        }
       }
     }
   },
@@ -5657,13 +5671,19 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "WebBanGiay.Common/1.0.0": {
+      "type": "project",
+      "path": "../WebBanGiay.Common/WebBanGiay.Common.csproj",
+      "msbuildProject": "../WebBanGiay.Common/WebBanGiay.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.9",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.9"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
+      "WebBanGiay.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5695,7 +5715,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj": {
+              "projectPath": "C:\\Users\\trang\\OneDrive\\Desktop\\da\\WebBanGiay\\WebBanGiay.Common\\WebBanGiay.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
